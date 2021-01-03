@@ -31,10 +31,7 @@ function result() {
     newStory = newStory.replace('花子',name);
   }
 
-  if(document.getElementById("uk").checked) {
-    const weight = Math.round(300*0.0714286) + ' stone';
-    newStory = newStory.replace('300Kg',weight);
-  }
+  
 
   story.textContent = newStory;
   story.style.visibility = 'visible';
